@@ -27,6 +27,7 @@
 		610425611D6E33FE00D83A19 /* Aug2016 Practice */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Aug2016 Practice"; sourceTree = BUILT_PRODUCTS_DIR; };
 		610425641D6E33FF00D83A19 /* MergeSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MergeSort.h; sourceTree = "<group>"; };
 		6104256B1D6E342100D83A19 /* testMergeSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testMergeSort.cpp; sourceTree = "<group>"; };
+		6104256D1D75F39300D83A19 /* RodCut.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RodCut.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +62,7 @@
 			children = (
 				610425641D6E33FF00D83A19 /* MergeSort.h */,
 				6104256B1D6E342100D83A19 /* testMergeSort.cpp */,
+				6104256D1D75F39300D83A19 /* RodCut.h */,
 			);
 			path = "Aug2016 Practice";
 			sourceTree = "<group>";
@@ -243,6 +245,7 @@
 				6104256A1D6E33FF00D83A19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
