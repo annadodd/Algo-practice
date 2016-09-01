@@ -8,21 +8,11 @@
 
 #include <iostream>
 
-void copyArray(int* source, int* dest, int size)
-{
-	for (int ii = 0; ii < size; ++ii)
-	{
-		dest[ii] = source[ii];
-	}
-}
-void printArray(int source[], int size)
-{
-	for (int ii = 0; ii < size; ++ii)
-	{
-		std::cout << source[ii] << "\t";
-	}
-	std::cout << "\n";
-}
+// Helper
+void copyArray(int* source, int* dest, int size);
+void printArray(int source[], int size);
+
+// Recursive merge sort implementation
 void mergeSort(int arr[], int size)
 {
 	// 1. Check for base case: size 0 or size 1 array (return if so)
@@ -68,4 +58,19 @@ void mergeSort(int arr[], int size)
 	{
 		arr[ii++] = partition2[idxP2++];
 	}
+}
+void copyArray(int* source, int* dest, int size)
+{
+	for (int ii = 0; ii < size; ++ii)
+	{
+		dest[ii] = source[ii];
+	}
+}
+void printArray(int source[], int size)
+{
+	for (int ii = 0; ii < size; ++ii)
+	{
+		std::cout << source[ii] << "\t";
+	}
+	std::cout << "\n";
 }

@@ -15,9 +15,9 @@
 
 void compare(int actual[], int expected[], int size)
 {
-	for (int i = 0; i < size; ++i)
+	for (int ii = 0; ii < size; ++ii)
 	{
-		assert(actual[i] == expected[i]);
+		assert(actual[ii] == expected[ii]);
 	}
 }
 

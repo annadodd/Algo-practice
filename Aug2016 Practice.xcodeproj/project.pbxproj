@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		610425651D6E33FF00D83A19 /* MergeSort.h in Sources */ = {isa = PBXBuildFile; fileRef = 610425641D6E33FF00D83A19 /* MergeSort.h */; };
 		6104256C1D6E342100D83A19 /* testMergeSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6104256B1D6E342100D83A19 /* testMergeSort.cpp */; };
+		6125E90E1D77D09B002C9B00 /* testRodCut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6125E90D1D77D09B002C9B00 /* testRodCut.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,7 @@
 		610425641D6E33FF00D83A19 /* MergeSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MergeSort.h; sourceTree = "<group>"; };
 		6104256B1D6E342100D83A19 /* testMergeSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testMergeSort.cpp; sourceTree = "<group>"; };
 		6104256D1D75F39300D83A19 /* RodCut.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RodCut.h; sourceTree = "<group>"; };
+		6125E90D1D77D09B002C9B00 /* testRodCut.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testRodCut.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +62,10 @@
 		610425631D6E33FF00D83A19 /* Aug2016 Practice */ = {
 			isa = PBXGroup;
 			children = (
-				610425641D6E33FF00D83A19 /* MergeSort.h */,
-				6104256B1D6E342100D83A19 /* testMergeSort.cpp */,
 				6104256D1D75F39300D83A19 /* RodCut.h */,
+				610425641D6E33FF00D83A19 /* MergeSort.h */,
+				6125E90D1D77D09B002C9B00 /* testRodCut.cpp */,
+				6104256B1D6E342100D83A19 /* testMergeSort.cpp */,
 			);
 			path = "Aug2016 Practice";
 			sourceTree = "<group>";
@@ -123,6 +126,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6125E90E1D77D09B002C9B00 /* testRodCut.cpp in Sources */,
 				6104256C1D6E342100D83A19 /* testMergeSort.cpp in Sources */,
 				610425651D6E33FF00D83A19 /* MergeSort.h in Sources */,
 			);
