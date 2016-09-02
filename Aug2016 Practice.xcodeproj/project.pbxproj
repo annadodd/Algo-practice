@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		610425651D6E33FF00D83A19 /* MergeSort.h in Sources */ = {isa = PBXBuildFile; fileRef = 610425641D6E33FF00D83A19 /* MergeSort.h */; };
-		6104256C1D6E342100D83A19 /* testMergeSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6104256B1D6E342100D83A19 /* testMergeSort.cpp */; };
-		6125E90E1D77D09B002C9B00 /* testRodCut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6125E90D1D77D09B002C9B00 /* testRodCut.cpp */; };
+		6169AB591D78D9BF004F0DE7 /* testRegExMatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6169AB581D78D0DE004F0DE7 /* testRegExMatch.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +29,9 @@
 		6104256B1D6E342100D83A19 /* testMergeSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testMergeSort.cpp; sourceTree = "<group>"; };
 		6104256D1D75F39300D83A19 /* RodCut.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RodCut.h; sourceTree = "<group>"; };
 		6125E90D1D77D09B002C9B00 /* testRodCut.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testRodCut.cpp; sourceTree = "<group>"; };
+		6169AB551D78CC02004F0DE7 /* XOR.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XOR.h; sourceTree = "<group>"; };
+		6169AB561D78CC51004F0DE7 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6169AB581D78D0DE004F0DE7 /* testRegExMatch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = testRegExMatch.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +64,13 @@
 		610425631D6E33FF00D83A19 /* Aug2016 Practice */ = {
 			isa = PBXGroup;
 			children = (
+				6169AB551D78CC02004F0DE7 /* XOR.h */,
 				6104256D1D75F39300D83A19 /* RodCut.h */,
 				610425641D6E33FF00D83A19 /* MergeSort.h */,
+				6169AB581D78D0DE004F0DE7 /* testRegExMatch.cpp */,
 				6125E90D1D77D09B002C9B00 /* testRodCut.cpp */,
 				6104256B1D6E342100D83A19 /* testMergeSort.cpp */,
+				6169AB561D78CC51004F0DE7 /* main.cpp */,
 			);
 			path = "Aug2016 Practice";
 			sourceTree = "<group>";
@@ -126,9 +131,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6125E90E1D77D09B002C9B00 /* testRodCut.cpp in Sources */,
-				6104256C1D6E342100D83A19 /* testMergeSort.cpp in Sources */,
 				610425651D6E33FF00D83A19 /* MergeSort.h in Sources */,
+				6169AB591D78D9BF004F0DE7 /* testRegExMatch.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
