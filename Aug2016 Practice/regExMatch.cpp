@@ -44,6 +44,8 @@ bool isSubstring(const string& original, const string& sub)
  Then T test cases follow. Each test case contains two lines. The first line
  of each test case contains a pattern string. The second line of each test case
  consists of a text string.
+ 
+ http://www.practice.geeksforgeeks.org/problem-page.php?pid=1313
 
  */
 
