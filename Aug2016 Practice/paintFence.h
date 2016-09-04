@@ -24,16 +24,16 @@ int paintFence(int n, int k)
 	// Start by computing for i = 1 ... n
 	for (int i = 1; i <= n; ++i)
 	{
-		// Case: last two fence posts same, we must paint
+		// 1. Case: last two fence posts same, we must paint
 		// next post a new color
 		diff[i] = same[i - 1] * (k - 1);
 
-		// Case: previous fence post is color x (different
+		// 2. Case: previous fence post is color x (different
 		// from the fence post before it) and we paint the next
 		// post a different color
 		diff[i] += diff[i - 1] * (k - 1);
 
-		// Case: previous fence post is color x (different
+		// 3. Case: previous fence post is color x (different
 		// from the fence post before it) and we paint the next
 		// post color x
 		same[i] = diff[i - 1];

@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		610425651D6E33FF00D83A19 /* MergeSort.h in Sources */ = {isa = PBXBuildFile; fileRef = 610425641D6E33FF00D83A19 /* MergeSort.h */; };
 		6169AB5F1D7A5437004F0DE7 /* testPaintFence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6169AB5E1D7A5437004F0DE7 /* testPaintFence.cpp */; };
+		6169AB621D7CBA9A004F0DE7 /* TriangleMaking.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6169AB611D7CBA9A004F0DE7 /* TriangleMaking.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,8 @@
 		6169AB5B1D79E945004F0DE7 /* wordBreak.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wordBreak.h; sourceTree = "<group>"; };
 		6169AB5D1D7A53D2004F0DE7 /* paintFence.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = paintFence.h; sourceTree = "<group>"; };
 		6169AB5E1D7A5437004F0DE7 /* testPaintFence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testPaintFence.cpp; sourceTree = "<group>"; };
+		6169AB601D7C7F9E004F0DE7 /* TriangleMaking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TriangleMaking.h; sourceTree = "<group>"; };
+		6169AB611D7CBA9A004F0DE7 /* TriangleMaking.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TriangleMaking.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				610425641D6E33FF00D83A19 /* MergeSort.h */,
 				6169AB5B1D79E945004F0DE7 /* wordBreak.h */,
 				6169AB5D1D7A53D2004F0DE7 /* paintFence.h */,
+				6169AB601D7C7F9E004F0DE7 /* TriangleMaking.h */,
+				6169AB611D7CBA9A004F0DE7 /* TriangleMaking.cpp */,
 				6169AB581D78D0DE004F0DE7 /* regExMatch.cpp */,
 				6125E90D1D77D09B002C9B00 /* testRodCut.cpp */,
 				6104256B1D6E342100D83A19 /* testMergeSort.cpp */,
@@ -137,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6169AB621D7CBA9A004F0DE7 /* TriangleMaking.cpp in Sources */,
 				6169AB5F1D7A5437004F0DE7 /* testPaintFence.cpp in Sources */,
 				610425651D6E33FF00D83A19 /* MergeSort.h in Sources */,
 			);
