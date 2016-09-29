@@ -127,7 +127,7 @@ void findWorkflow(vector<Project> projects) {
 	Node start = findPoint(numIn, numOut);
 	Node end = findPoint(numOut, numIn);
 
-	graph.numNodes = (int)graph.edges.size() + 1;
+	graph.numNodes = (int)numIn.size() + 1;
 	printDFSTraversal(graph, start, end);
 }
 
