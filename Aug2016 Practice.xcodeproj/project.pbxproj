@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		610425651D6E33FF00D83A19 /* MergeSort.h in Sources */ = {isa = PBXBuildFile; fileRef = 610425641D6E33FF00D83A19 /* MergeSort.h */; };
-		6169AB5F1D7A5437004F0DE7 /* testPaintFence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6169AB5E1D7A5437004F0DE7 /* testPaintFence.cpp */; };
-		6169AB621D7CBA9A004F0DE7 /* TriangleMaking.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6169AB611D7CBA9A004F0DE7 /* TriangleMaking.cpp */; };
+		61050A061D9C81EF0039FBDD /* graphPath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61050A051D9C81EF0039FBDD /* graphPath.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +28,7 @@
 		610425641D6E33FF00D83A19 /* MergeSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MergeSort.h; sourceTree = "<group>"; };
 		6104256B1D6E342100D83A19 /* testMergeSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testMergeSort.cpp; sourceTree = "<group>"; };
 		6104256D1D75F39300D83A19 /* RodCut.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RodCut.h; sourceTree = "<group>"; };
+		61050A051D9C81EF0039FBDD /* graphPath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = graphPath.cpp; sourceTree = "<group>"; };
 		6125E90D1D77D09B002C9B00 /* testRodCut.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testRodCut.cpp; sourceTree = "<group>"; };
 		6169AB551D78CC02004F0DE7 /* XOR.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XOR.h; sourceTree = "<group>"; };
 		6169AB561D78CC51004F0DE7 /* testWordBreak.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testWordBreak.cpp; sourceTree = "<group>"; };
@@ -38,6 +38,7 @@
 		6169AB5E1D7A5437004F0DE7 /* testPaintFence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = testPaintFence.cpp; sourceTree = "<group>"; };
 		6169AB601D7C7F9E004F0DE7 /* TriangleMaking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TriangleMaking.h; sourceTree = "<group>"; };
 		6169AB611D7CBA9A004F0DE7 /* TriangleMaking.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TriangleMaking.cpp; sourceTree = "<group>"; };
+		61B2EAB71D96DB20001FE229 /* quickSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = quickSort.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,12 +77,14 @@
 				6169AB5B1D79E945004F0DE7 /* wordBreak.h */,
 				6169AB5D1D7A53D2004F0DE7 /* paintFence.h */,
 				6169AB601D7C7F9E004F0DE7 /* TriangleMaking.h */,
+				61B2EAB71D96DB20001FE229 /* quickSort.cpp */,
 				6169AB611D7CBA9A004F0DE7 /* TriangleMaking.cpp */,
 				6169AB581D78D0DE004F0DE7 /* regExMatch.cpp */,
 				6125E90D1D77D09B002C9B00 /* testRodCut.cpp */,
 				6104256B1D6E342100D83A19 /* testMergeSort.cpp */,
 				6169AB561D78CC51004F0DE7 /* testWordBreak.cpp */,
 				6169AB5E1D7A5437004F0DE7 /* testPaintFence.cpp */,
+				61050A051D9C81EF0039FBDD /* graphPath.cpp */,
 			);
 			path = "Aug2016 Practice";
 			sourceTree = "<group>";
@@ -142,8 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6169AB621D7CBA9A004F0DE7 /* TriangleMaking.cpp in Sources */,
-				6169AB5F1D7A5437004F0DE7 /* testPaintFence.cpp in Sources */,
+				61050A061D9C81EF0039FBDD /* graphPath.cpp in Sources */,
 				610425651D6E33FF00D83A19 /* MergeSort.h in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
